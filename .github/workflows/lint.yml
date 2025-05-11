@@ -8,12 +8,6 @@ on:
     branches:
       - master
 
-  pull_request:
-    paths:
-      - '**.php'
-    branches:
-      - master
-
 permissions:
   contents: write
 
